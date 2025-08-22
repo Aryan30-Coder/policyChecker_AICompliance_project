@@ -1,6 +1,6 @@
 <h1 align="center">🛡️ AI Compliance & Policy Checker</h1>  
 <p align="center">
-  <b>An agentic AI system built with LangChain + LangGraph</b><br>
+  <b>An agentic AI system built with LangChain EcoSystem</b><br>
   Ensures documents comply with <b>legal, financial, and healthcare regulations</b>
 </p>  
 
