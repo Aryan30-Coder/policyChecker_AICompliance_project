@@ -1,5 +1,4 @@
 # policyChecker_AICompliance_project
-An AI-powered compliance checker that analyzes documents, flags policy violations, and suggests fixes using LangChain EcoSystem.
 
 
 <h1 align="center">🛡️ AI Compliance & Policy Checker</h1>  
