@@ -7,5 +7,6 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import ChatPromptTemplate
 
 llm = ChatGroq(model="llama3-70b-8132")
+print("lets go")
 
 
