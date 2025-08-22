@@ -1,6 +1,3 @@
-# policyChecker_AICompliance_project
-
-
 <h1 align="center">🛡️ AI Compliance & Policy Checker</h1>  
 <p align="center">
   <b>An agentic AI system built with LangChain + LangGraph</b><br>
