@@ -21,13 +21,6 @@ def generate_report(results, output_dir="reports", file_format="json"):
     if file_format == "json":
         with open(file_path, "w") as f:
             json.dump(results, f, indent=4)
-    elif file_format == "txt":
-        with open(file_path, "w") as f:
-            for i, r in enumerate(results, 1):
-                f.write(f"--- Chunk {i} ---\n")
-                f.write(f"✅ Compliant: {r['compliant']}\n")
-                f.write(f"❌ Issue: {r['reason']}\n")
-                f.write(f"💡 Suggestion: {r['suggestion']}\n\n")
     else:
         raise ValueError("Unsupported file format. Use 'json' or 'txt'.")
 
@@ -48,7 +41,7 @@ def convert_json_to_txt(json_path, txt_path=None):
         for i, r in enumerate(results, 1):
             f.write(f"--- Chunk {i} ---\n")
             
-            result = r.get("result", r)  # ✅ handle nested "result"
+            result = r.get("result", r)  
             
             f.write(f"✅ Compliant: {result.get('compliant', 'Unknown')}\n")
             f.write(f"❌ Issue: {result.get('reason', 'N/A')}\n")

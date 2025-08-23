@@ -2,6 +2,7 @@
 from loader import load_document, chunk_documents, store_vector
 from retriever import check_compliance
 from generator import generate_report, convert_json_to_txt
+from mailer import send_report_email
 
 def process_document(doc_path: str):
     """
@@ -34,10 +35,15 @@ def process_document(doc_path: str):
     print("📝 Generating report...")
     report = generate_report(flagged)
     txt_report = convert_json_to_txt(report)
+    send_report_email(
+        to_email="ary4nrajput2004@gmail.com",
+        subject="Compliance Report",
+        body="Hello, please find attached the compliance report for your contract.",
+        attachment_path=txt_report
+    )
 
     print("\n✅ Compliance check complete!")
-    return report
-
+    return txt_report
 
 
 if __name__ == "__main__":
