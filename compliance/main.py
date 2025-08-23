@@ -1,4 +1,3 @@
-# orchestrator.py
 from loader import load_document, chunk_documents, store_vector
 from retriever import check_compliance
 from generator import generate_report, convert_json_to_txt

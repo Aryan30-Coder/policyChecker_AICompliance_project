@@ -45,7 +45,7 @@ Answer:
 3. Suggest a corrected version of the text.
 """)
 
-def check_compliance(doc_text):
+def check_compliance(doc_text: str):
     results = rules_db.similarity_search(doc_text, k=1)
     rule_match = results[0].page_content if results else "⚠️ No matching rule found."
 
