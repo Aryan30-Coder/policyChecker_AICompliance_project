@@ -1,0 +1,15 @@
+This Agreement is made between ABC Corp ("Provider") and XYZ Ltd ("Client"). 
+
+1. Scope of Services Provider will deliver software services to Client as agreed verbally. 
+(⚠️ Risk: "verbally" leaves ambiguity — contracts should have written scope.) 
+
+2. Confidentiality Provider may share client data with third parties for operational efficiency. (⚠️ Risk: Sharing client data violates GDPR/HIPAA unless consent & safeguards exist.) 
+
+3. Payment Terms Client agrees to pay $10,000 upon completion. No refunds will be issued under any circumstance. 
+(⚠️ Risk: "no refunds under any circumstance" may breach consumer protection laws.)
+
+4. Termination Provider may terminate the agreement at any time without notice. 
+(⚠️ Risk: Termination without notice is usually non-compliant with fair contract law.) 
+
+5. Governing Law This agreement will be governed solely by the laws of Mars Colony Alpha. 
+(⚠️ Risk: Invalid jurisdiction, non-enforceable.) Signed, ABC Corp Representative XYZ Ltd Representative

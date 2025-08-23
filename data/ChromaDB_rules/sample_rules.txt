@@ -1,0 +1,15 @@
+Contract Scope Rule:
+All contracts must clearly define the scope of services in writing. Verbal agreements are not considered valid for enforceability.
+
+Confidentiality Rule:
+Client data must not be shared with third parties unless explicit consent has been obtained and legal safeguards such as GDPR or HIPAA compliance are in place.
+
+Payment Terms Rule:
+Contracts should include fair payment terms. Clauses stating "no refunds under any circumstance" are not compliant with consumer protection laws.
+
+Termination Rule:
+Termination clauses must provide reasonable notice to both parties. A clause allowing termination without notice is considered unfair and non-compliant.
+
+Governing Law Rule:
+Contracts must specify a valid legal jurisdiction on Earth. Any non-recognized jurisdiction (e.g., fictional or extraterrestrial) is invalid and unenforceable.
+

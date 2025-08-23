@@ -1,8 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import SentenceTransformerEmbeddings
-
+from langchain_huggingface import HuggingFaceEmbeddings
 
 
 def load_document(doc_path: str):
@@ -32,8 +31,8 @@ def chunk_documents(documents, chunk_size=1000, chunk_overlap=200):
 
 def store_vector(chunks, db_type = "docs"):
     """Stores the chucks generated in the VectorDB."""
-    embedder = SentenceTransformerEmbeddings(model = "all-MiniLM-L6-v2")
-    persist_directory = f"ChromaDB_{db_type}"
+    embedder = HuggingFaceEmbeddings(model = "all-MiniLM-L6-v2")
+    persist_directory = f"data/ChromaDB_{db_type}"
     vectordb = Chroma.from_documents(
         documents = chunks,
         embedding = embedder,
