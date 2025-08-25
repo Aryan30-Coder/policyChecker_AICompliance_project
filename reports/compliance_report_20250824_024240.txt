@@ -36,3 +36,7 @@ Either party may terminate this Agreement upon [insert number] days' written not
 5. Governing Law
 This Agreement will be governed by and construed in accordance with the laws of [insert valid jurisdiction, e.g., the State of California].
 
+Signed,
+ABC Corp Representative
+XYZ Ltd Representative
+
